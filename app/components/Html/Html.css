@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'Montserrat Light';
+    src: url('../../assets/Montserrat-Light.ttf') format('truetype');
+}
+
+* {
+    box-sizing: border-box;
+    margin-top: 0;
+    font-family: inherit;
+}
+
+html {
+    font-size: 13px;
+
+    @media (min-width: 769px) {
+        font-size: calc(13 / 769 * 100vw);
+    }
+
+    /* 769 / 13 * 16 */
+    @media (min-width: 946px) {
+        font-size: 16px;
+    }
+}
+
+body {
+    margin: 0;
+    line-height: 1.5;
+    font-family: Montserrat Light;
+}
+
+a {
+    color: inherit;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: normal;
+    line-height: 1.25;
+}
+
+button {
+    font-size: inherit;
+}
+
+button:hover {
+    cursor: pointer;
+}
