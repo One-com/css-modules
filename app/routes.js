@@ -11,7 +11,7 @@ export default (
         <Route component={Html}>
             <Route path='/' component={Home}/>
             <Route path='/foo' component={Foo} />
-            <Route path='/bar' component={Foo} />
+            <Route path='/bar' component={Bar} />
             <Route path='*' component={NotFound} />
         </Route>
     </Router>
