@@ -3,9 +3,14 @@
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+    text-align: center;
 }
 
 .Heading {
     font-size: 1rem;
     font-weight: bold;
+}
+
+.Button {
+    margin: 0 0.5rem;
 }
