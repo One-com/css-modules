@@ -1,11 +1,3 @@
-.Home {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    text-align: center;
-}
-
 .Heading {
     font-size: 1rem;
     font-weight: bold;
