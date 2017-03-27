@@ -1,0 +1,5 @@
+.Heading {
+    composes: Heading from '../../components/Heading/Heading.css';
+    background: #2ecc71;
+    border-radius: 3px;
+}

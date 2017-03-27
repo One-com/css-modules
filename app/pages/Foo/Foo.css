@@ -1,0 +1,4 @@
+.Heading {
+    composes: Heading from '../../components/Heading/Heading.css';
+    color: #55acee;
+}
