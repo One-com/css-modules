@@ -4,11 +4,11 @@
   "private": true,
   "scripts": {
     "lint": "eslint .",
-    "start": "nodemon --harmony index.js --watch index.js --watch server --ignore server/build",
-    "start:production": "NODE_ENV=production node --harmony index.js",
+    "start": "nodemon index.js --watch index.js --watch server --ignore server/build",
+    "start:production": "NODE_ENV=production node index.js",
     "clean": "rm -rf ./public ./server/build",
-    "build:client:production": "NODE_ENV=production node --harmony -r babel-register node_modules/.bin/webpack -p --config=server/webpack/client.js",
-    "build:server:production": "NODE_ENV=production node --harmony -r babel-register node_modules/.bin/webpack -p --config=server/webpack/server.js",
+    "build:client:production": "NODE_ENV=production node -r babel-register node_modules/.bin/webpack -p --config=server/webpack/client.js",
+    "build:server:production": "NODE_ENV=production node -r babel-register node_modules/.bin/webpack -p --config=server/webpack/server.js",
     "build:production": "npm run build:client:production && npm run build:server:production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
