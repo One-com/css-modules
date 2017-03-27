@@ -1,4 +1,14 @@
-**Useful links**
+# Installation
+```
+$ yarn install
+```
+
+# Starting server
+```
+$ npm start
+```
+
+# Useful links
 - https://github.com/css-modules/css-modules
 - https://github.com/webpack-contrib/css-loader#css-modules
 - https://css-modules.github.io/webpack-demo/
