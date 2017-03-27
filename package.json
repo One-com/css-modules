@@ -14,13 +14,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PabloSichert/css-modules.git"
+    "url": "git+https://github.com/One-com/css-modules.git"
   },
   "author": "Pablo Sichert <mail@pablosichert.com>",
   "bugs": {
-    "url": "https://github.com/PabloSichert/css-modules/issues"
+    "url": "https://github.com/One-com/css-modules/issues"
   },
-  "homepage": "https://github.com/PabloSichert/css-modules#readme",
+  "homepage": "https://github.com/One-com/css-modules#readme",
   "devDependencies": {
     "assets-webpack-plugin": "^3.5.1",
     "babel-eslint": "^7.1.1",
