@@ -10,7 +10,7 @@ export default class Bar extends Component {
                 Bar
                 <br />
                 <br />
-                <Button onClick={history.goBack}>←</Button>
+                <Button onClick={history && history.goBack}>←</Button>
             </Page>
         );
     }
