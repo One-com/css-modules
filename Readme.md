@@ -1,3 +1,7 @@
+# Prerequisites
+- [Node.js](https://nodejs.org/en/download/) >= 7.6
+- [yarn](https://yarnpkg.com/en/docs/install)
+
 # Installation
 ```
 $ yarn install
