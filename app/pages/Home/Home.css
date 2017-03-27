@@ -1,6 +1,14 @@
+.Home > div {
+    max-width: 500px;
+}
+
 .Heading {
     font-size: 1rem;
     font-weight: bold;
+}
+
+.Blockquote {
+    margin-bottom: 2rem;
 }
 
 .Button {
