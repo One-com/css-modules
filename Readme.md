@@ -1,18 +1,20 @@
-# Prerequisites
+# CSS Modules Demo
+
+## Prerequisites
 - [Node.js](https://nodejs.org/en/download/) >= 7.6
 - [yarn](https://yarnpkg.com/en/docs/install)
 
-# Installation
+## Installation
 ```
 $ yarn install
 ```
 
-# Starting server
+## Starting server
 ```
 $ npm start
 ```
 
-# Useful links
+## Useful links
 - https://github.com/css-modules/css-modules
 - https://github.com/webpack-contrib/css-loader#css-modules
 - https://css-modules.github.io/webpack-demo/
